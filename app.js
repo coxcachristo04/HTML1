@@ -40,7 +40,7 @@ let contadores = [-1,-1,-1,-1];
 let entro = false;
 
 //animacion
-function efectoHabilidades(){
+function efectohabilidades(){
     var habilidades = document.getElementById("habilidades");
     var distancia_skills = window.innerHeight - habilidades.getBoundingClientRect().top;
     if(distancia_skills>=300 && entro==false){
