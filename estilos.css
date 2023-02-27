@@ -131,9 +131,10 @@ html{
     margin-top: 15px;
 }
 .sobremi .contenido-seccion p{
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
     color: #666;
+    text-align: center;
 }
 .sobremi .contenido-seccion .fila{
     margin-top: 20px;
@@ -145,7 +146,7 @@ html{
 }
 .sobremi .contenido-seccion .fila .col1{
     text-align:center;
-    transform: translate(500px, -242px);
+    transform: translate(500px, -365px);
 }
 .sobremi .contenido-seccion .fila .col i{
     color: #1A235E;
@@ -291,10 +292,16 @@ html{
 }
 .h .foto img{
     float:left;
+    margin: 10px;
 }
 .css{
-    background-color: #e6e6e6;
-    padding: 50px 0 100px 0;
+    padding: 80px 0 100px 0;
+    background: linear-gradient(rgba(243, 239, 239, 0.3), rgba(248, 246, 246, 0.3)),
+    url("img/css.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #000;
     text-align: justify;  
 }
 .css .contenido-seccion{
@@ -308,7 +315,110 @@ html{
 .css .contenido-seccion h3{
     text-align: center;
 }
-
+.css .contenido-seccion .foto img{
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+.css .contenido-seccion .foto1 img{
+    float: right;
+    margin: 10px;
+}
+.git{
+    padding: 80px 0 100px 0;
+    background: linear-gradient(rgba(65, 62, 62, 0.3), rgba(75, 72, 72, 0.3)),
+    url("img/git.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+    text-align: justify;  
+}
+.git .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.git .contenido-seccion h2{
+    text-align: center;
+}
+.git .contenido-seccion h3{
+    text-align: center;
+}
+.git .contenido-seccion .foto img{
+    float: left;
+    margin: 10px;
+}
+.github{
+    padding: 80px 0 100px 0;
+    background: linear-gradient(rgba(243, 239, 239, 0.3), rgba(248, 246, 246, 0.3)),
+    url("img/gh.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #000;
+    text-align: justify;  
+}
+.github .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.github .contenido-seccion h2{
+    text-align: center;
+}
+.github .contenido-seccion h3{
+    text-align: center;
+}
+.github .contenido-seccion .foto img{
+    float: left;
+    margin: 10px;
+}
+.github .contenido-seccion .foto1 img{
+    float: right;
+    margin: 10px;
+}
+.github .contenido-seccion .foto2 img{
+    width: 180px;
+    height: 270px;
+    float: left;
+    margin: 10px;
+}
+.github .contenido-seccion .foto3 img{
+    width: 170px;
+    height: 250px;
+    float: right;
+    margin: 10px;
+}
+.contacto{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h2{
+    font-family: "Yellowtail";
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: #1A235E;
+}
 @media screen and (max-width:800px){
     .habilidades .contenido-seccion .fila{
         display: block;
